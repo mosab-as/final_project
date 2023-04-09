@@ -1,0 +1,141 @@
+.cart-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .cart-page main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .cart-page h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .cart-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-page li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-page li:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-page li img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .cart-page li h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .cart-page li p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .cart-page button {
+    background-color: #f0c040;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cart-page button:hover {
+    background-color: #e0b030;
+  }
+
+  .cart-page ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .cart-page li {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-page img {
+    max-width: 150px;
+    margin-right: 30px;
+  }
+  
+  .cart-page h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-page p.price {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .cart-page .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-page .quantity label {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .cart-page .quantity input {
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  td,
+  th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .quantity-selector, .price , .price-quantity , .remove-btn , .product-info{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .product-info{
+        align-items: center;
+  }
+
+  .pro-inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
