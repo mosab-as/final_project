@@ -8,7 +8,6 @@ import ProductDetailsPage from './component/ProductDetailsPage';
 
 function App() {
   const [cart, setCart] = useState([]);
-  // localStorage.removeItem('cart')
   const handleAddToCart = (productInfo) => {
 
     console.log(localStorage.cart)
