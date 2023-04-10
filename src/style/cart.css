@@ -63,19 +63,6 @@
     background-color: #e0b030;
   }
 
-  .cart-page ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .cart-page li {
-    margin: 20px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
   .cart-page img {
     max-width: 150px;
@@ -137,5 +124,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
